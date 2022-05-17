@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aluno.fabio.projetofresadora.Sobre"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="155dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="527dp"
+            android:layout_weight="1"
+            android:text="Grupo Fresadora CNC"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="IFMG - Campus Ouro Preto - Projeto CNC"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="525dp" />
+
+        <TextView
+            android:id="@+id/sobre1"
+            android:layout_width="350dp"
+            android:layout_height="228dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.75"
+            android:text="Alunos:
+    Fábio Henrique - Gerente de Software
+    Gabriel Silva - Gerente do Projeto
+    Joyce Ramos - Gerente de Hardware
+    Junior Guilherme - Gerente de Hardware
+    Júlia Pereira - Gerente de Informação
+
+
+Orientadores:
+    Paulo Pinto - Doutor em Automação Aplicada
+    Silvia Almeida - Doutora em Engenharia Eletrica"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="274dp" />
+
+        <TextView
+            android:id="@+id/sobre"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="
+
+            Esse projeto de 3º ano do curso Técnico
+        Integrado de Automação Industrial do Instituto
+        Federal de Minas Gerais – Campus Ouro Preto,
+        tem como objetivo criar uma fresadora CNC de
+        médio porte, com baixo preço e fácil
+        acessibilidade capaz de usinar com precisão e
+        qualidade, exercendo ao máximo sua função"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="50dp" />
+
+
+</android.support.constraint.ConstraintLayout>
